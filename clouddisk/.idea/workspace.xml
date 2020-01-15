@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6eb600f1-39c6-4119-b8ca-f5ec74670cac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/lib/go-1.13" />
+  <component name="ProjectId" id="1WR2xmLZWCdB8ykjhLCNjcjdN4Z" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build clouddisk" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="clouddisk" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="clouddisk" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build clouddisk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="165" width="635" height="773" key="#go_build_clouddisk" timestamp="1579098965831">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="605" y="165" width="635" height="773" key="#go_build_clouddisk/0.28.1855.1052@0.28.1855.1052" timestamp="1579098965831" />
+    <state x="705" y="309" width="424" height="480" key="FileChooserDialogImpl" timestamp="1579098963483">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="705" y="309" width="424" height="480" key="FileChooserDialogImpl/0.28.1855.1052@0.28.1855.1052" timestamp="1579098963483" />
+    <state width="1801" height="369" key="GridCell.Tab.0.bottom" timestamp="1579100518742">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="369" key="GridCell.Tab.0.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518742" />
+    <state width="1801" height="369" key="GridCell.Tab.0.center" timestamp="1579100518741">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="369" key="GridCell.Tab.0.center/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518741" />
+    <state width="1801" height="369" key="GridCell.Tab.0.left" timestamp="1579100518740">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="369" key="GridCell.Tab.0.left/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518740" />
+    <state width="1801" height="369" key="GridCell.Tab.0.right" timestamp="1579100518741">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="369" key="GridCell.Tab.0.right/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518741" />
+  </component>
+</project>

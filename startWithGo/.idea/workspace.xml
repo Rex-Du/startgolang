@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e942923f-c494-4a27-9c3f-768d65b76d4a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/lib/go-1.10" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="1855" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectId" id="1V9l1t2aBKSPrGgVyOPXWYM506F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build startWithGo/goroutine (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="startWithGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goroutine/goruntime.go" />
+      <kind value="FILE" />
+      <package value="startWithGo/goroutine" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build startWithGo/goroutine (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="startWithGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goroutine/gowaitgroup.go" />
+      <kind value="FILE" />
+      <package value="startWithGo/goroutine" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build startWithGo/goroutine (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="startWithGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goroutine/gochan.go" />
+      <kind value="FILE" />
+      <package value="startWithGo/goroutine" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build startWithGo/goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="startWithGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/goroutine/goroutine.go" />
+      <kind value="FILE" />
+      <package value="startWithGo/goroutine" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="startWithGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/queue/entry/main.go" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e942923f-c494-4a27-9c3f-768d65b76d4a" name="Default Changelist" comment="" />
+      <created>1578661947128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578661947128</updated>
+      <workItem from="1578661948924" duration="457000" />
+      <workItem from="1578662420778" duration="3621000" />
+      <workItem from="1578717071262" duration="618000" />
+      <workItem from="1578717703842" duration="670000" />
+      <workItem from="1578718388157" duration="36000" />
+      <workItem from="1578718440183" duration="160000" />
+      <workItem from="1578718616403" duration="125000" />
+      <workItem from="1578718755402" duration="674000" />
+      <workItem from="1578719446941" duration="606000" />
+      <workItem from="1578731188356" duration="114000" />
+      <workItem from="1578731333996" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="215" width="800" height="673" key="#Go_SDK" timestamp="1578718578573">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="522" y="215" width="800" height="673" key="#Go_SDK/0.28.1855.1052@0.28.1855.1052" timestamp="1578718578573" />
+    <state x="522" y="215" width="800" height="673" key="#Plugins" timestamp="1578718795422">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="522" y="215" width="800" height="673" key="#Plugins/0.28.1855.1052@0.28.1855.1052" timestamp="1578718795422" />
+    <state x="593" y="155" width="658" height="794" key="#go_build_helloworld.go" timestamp="1576673336791">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="155" width="658" height="794" key="#go_build_helloworld.go/0.28.1855.1052@0.28.1855.1052" timestamp="1576673336791" />
+    <state x="593" y="155" width="658" height="794" key="#go_build_node.go" timestamp="1577112030937">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="155" width="658" height="794" key="#go_build_node.go/0.28.1855.1052@0.28.1855.1052" timestamp="1577112030937" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo" timestamp="1576924256960">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/0.28.1855.1052@0.28.1855.1052" timestamp="1576924256960" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine" timestamp="1577502554826">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine/0.28.1855.1052@0.28.1855.1052" timestamp="1577502554826" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine_(1)" timestamp="1577502564324">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine_(1)/0.28.1855.1052@0.28.1855.1052" timestamp="1577502564324" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine_(2)" timestamp="1577542364072">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine_(2)/0.28.1855.1052@0.28.1855.1052" timestamp="1577542364072" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine_(3)" timestamp="1577544252944">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo/goroutine_(3)/0.28.1855.1052@0.28.1855.1052" timestamp="1577544252944" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo_(1)" timestamp="1577107445112">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo_(1)/0.28.1855.1052@0.28.1855.1052" timestamp="1577107445112" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo_(2)" timestamp="1577109832617">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_startWithGo_(2)/0.28.1855.1052@0.28.1855.1052" timestamp="1577109832617" />
+    <state x="710" y="295" width="424" height="514" key="FileChooserDialogImpl" timestamp="1578718737706">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="710" y="295" width="424" height="514" key="FileChooserDialogImpl/0.28.1855.1052@0.28.1855.1052" timestamp="1578718737706" />
+    <state width="1801" height="390" key="GridCell.Tab.0.bottom" timestamp="1577546198988">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="390" key="GridCell.Tab.0.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1577546198988" />
+    <state width="1801" height="390" key="GridCell.Tab.0.center" timestamp="1577546198987">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="390" key="GridCell.Tab.0.center/0.28.1855.1052@0.28.1855.1052" timestamp="1577546198987" />
+    <state width="1801" height="390" key="GridCell.Tab.0.left" timestamp="1577546198987">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="390" key="GridCell.Tab.0.left/0.28.1855.1052@0.28.1855.1052" timestamp="1577546198987" />
+    <state width="1801" height="390" key="GridCell.Tab.0.right" timestamp="1577546198988">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="390" key="GridCell.Tab.0.right/0.28.1855.1052@0.28.1855.1052" timestamp="1577546198988" />
+    <state x="591" y="194" key="SettingsEditor" timestamp="1578731301487">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="591" y="194" key="SettingsEditor/0.28.1855.1052@0.28.1855.1052" timestamp="1578731301487" />
+    <state x="694" y="222" width="457" height="659" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1577112967910">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="694" y="222" width="457" height="659" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.28.1855.1052@0.28.1855.1052" timestamp="1577112967910" />
+    <state x="590" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1577196358106">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="590" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1855.1052@0.28.1855.1052" timestamp="1577196358106" />
+  </component>
+</project>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fafd8ea6-09f4-4ffc-bf6f-33b3790dc1c8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/lib/go-1.13" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1Vxh6uvKKKldxnul9SCXd47Fbkm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/_examples/mvc" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo1/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build irisProject/demo1">
+    <configuration name="go build irisProject (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="irisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/add.go" />
+      <package value="irisProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build irisProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="irisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="irisProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build irisProject/demo1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="irisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/demo1/mainIris.go" />
+      <package value="irisProject/demo1" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build irisProject/demo1" />
+        <item itemvalue="Go Build.go build irisProject" />
+        <item itemvalue="Go Build.go build irisProject (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="593" y="154" width="658" height="796" key="#go_build_irisProject" timestamp="1578206775430">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_irisProject/0.28.1855.1052@0.28.1855.1052" timestamp="1578206775430" />
+    <state x="593" y="154" width="658" height="796" key="#go_build_irisProject_(1)" timestamp="1578206787458">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="154" width="658" height="796" key="#go_build_irisProject_(1)/0.28.1855.1052@0.28.1855.1052" timestamp="1578206787458" />
+    <state x="808" y="280" width="424" height="480" key="FileChooserDialogImpl" timestamp="1578230110585">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="808" y="280" width="424" height="480" key="FileChooserDialogImpl/0.28.1855.1052@0.28.1855.1052" timestamp="1578230110585" />
+    <state width="1605" height="263" key="GridCell.Tab.0.bottom" timestamp="1578224538153">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1605" height="263" key="GridCell.Tab.0.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1578224538153" />
+    <state width="1605" height="263" key="GridCell.Tab.0.center" timestamp="1578224538150">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1605" height="263" key="GridCell.Tab.0.center/0.28.1855.1052@0.28.1855.1052" timestamp="1578224538150" />
+    <state width="1605" height="263" key="GridCell.Tab.0.left" timestamp="1578224538149">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1605" height="263" key="GridCell.Tab.0.left/0.28.1855.1052@0.28.1855.1052" timestamp="1578224538149" />
+    <state width="1605" height="263" key="GridCell.Tab.0.right" timestamp="1578224538152">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1605" height="263" key="GridCell.Tab.0.right/0.28.1855.1052@0.28.1855.1052" timestamp="1578224538152" />
+    <state width="1801" height="327" key="GridCell.Tab.1.bottom" timestamp="1578206945685">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1578206945685" />
+    <state width="1801" height="327" key="GridCell.Tab.1.center" timestamp="1578206945684">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.center/0.28.1855.1052@0.28.1855.1052" timestamp="1578206945684" />
+    <state width="1801" height="327" key="GridCell.Tab.1.left" timestamp="1578206945684">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.left/0.28.1855.1052@0.28.1855.1052" timestamp="1578206945684" />
+    <state width="1801" height="327" key="GridCell.Tab.1.right" timestamp="1578206945685">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.right/0.28.1855.1052@0.28.1855.1052" timestamp="1578206945685" />
+    <state x="409" y="189" key="SettingsEditor" timestamp="1578213751551">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="409" y="189" key="SettingsEditor/0.28.1855.1052@0.28.1855.1052" timestamp="1578213751551" />
+  </component>
+</project>
