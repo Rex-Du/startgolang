@@ -10,6 +10,7 @@ import (
 func main()  {
 	http.HandleFunc("/file/upload", handlers.FileUploadHandler)
 	http.HandleFunc("/file/upload/suc", handlers.UploadSucHandler)
+	http.HandleFunc("/file/meta", handlers.FileMetaHandler)
 	err := http.ListenAndServe(":8989", nil)
 	if err != nil{
 		fmt.Println("start server error")

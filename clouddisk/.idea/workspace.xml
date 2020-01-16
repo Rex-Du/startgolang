@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eb600f1-39c6-4119-b8ca-f5ec74670cac" name="Default Changelist" comment="" />
+    <list default="true" id="6eb600f1-39c6-4119-b8ca-f5ec74670cac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meta/filemeta.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/fileupload.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/fileupload.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +18,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="/usr/lib/go-1.13" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WR2xmLZWCdB8ykjhLCNjcjdN4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -24,24 +36,62 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build clouddisk (1)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="clouddisk" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="clouddisk" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build clouddisk (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="clouddisk" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="clouddisk" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build clouddisk" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="clouddisk" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="clouddisk" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="clouddisk" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="clouddisk" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build clouddisk (1)" />
         <item itemvalue="Go Build.go build clouddisk" />
       </list>
     </recent_temporary>
@@ -61,30 +111,65 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VgoProject">
+    <proxy>https://goproxy.cn</proxy>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="165" width="635" height="773" key="#go_build_clouddisk" timestamp="1579098965831">
+    <state x="522" y="215" width="800" height="673" key="#Go_Modules_(vgo)" timestamp="1579101702759">
       <screen x="0" y="28" width="1855" height="1052" />
     </state>
-    <state x="605" y="165" width="635" height="773" key="#go_build_clouddisk/0.28.1855.1052@0.28.1855.1052" timestamp="1579098965831" />
+    <state x="522" y="215" width="800" height="673" key="#Go_Modules_(vgo)/0.28.1855.1052@0.28.1855.1052" timestamp="1579101702759" />
+    <state x="605" y="165" width="635" height="773" key="#go_build_clouddisk" timestamp="1579101833708">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="605" y="165" width="635" height="773" key="#go_build_clouddisk/0.28.1855.1052@0.28.1855.1052" timestamp="1579101833708" />
+    <state x="593" y="165" width="658" height="773" key="#go_build_clouddisk_(1)" timestamp="1579101859748">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="593" y="165" width="658" height="773" key="#go_build_clouddisk_(1)/0.28.1855.1052@0.28.1855.1052" timestamp="1579101859748" />
+    <state width="524" height="466" key="DebuggerActiveHint" timestamp="1579185277448">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="524" height="466" key="DebuggerActiveHint/0.28.1855.1052@0.28.1855.1052" timestamp="1579185277448" />
     <state x="705" y="309" width="424" height="480" key="FileChooserDialogImpl" timestamp="1579098963483">
       <screen x="0" y="28" width="1855" height="1052" />
     </state>
     <state x="705" y="309" width="424" height="480" key="FileChooserDialogImpl/0.28.1855.1052@0.28.1855.1052" timestamp="1579098963483" />
-    <state width="1801" height="369" key="GridCell.Tab.0.bottom" timestamp="1579100518742">
+    <state width="1801" height="229" key="GridCell.Tab.0.bottom" timestamp="1579186456394">
       <screen x="0" y="28" width="1855" height="1052" />
     </state>
-    <state width="1801" height="369" key="GridCell.Tab.0.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518742" />
-    <state width="1801" height="369" key="GridCell.Tab.0.center" timestamp="1579100518741">
+    <state width="1801" height="229" key="GridCell.Tab.0.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1579186456394" />
+    <state width="1801" height="229" key="GridCell.Tab.0.center" timestamp="1579186456393">
       <screen x="0" y="28" width="1855" height="1052" />
     </state>
-    <state width="1801" height="369" key="GridCell.Tab.0.center/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518741" />
-    <state width="1801" height="369" key="GridCell.Tab.0.left" timestamp="1579100518740">
+    <state width="1801" height="229" key="GridCell.Tab.0.center/0.28.1855.1052@0.28.1855.1052" timestamp="1579186456393" />
+    <state width="1801" height="229" key="GridCell.Tab.0.left" timestamp="1579186456392">
       <screen x="0" y="28" width="1855" height="1052" />
     </state>
-    <state width="1801" height="369" key="GridCell.Tab.0.left/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518740" />
-    <state width="1801" height="369" key="GridCell.Tab.0.right" timestamp="1579100518741">
+    <state width="1801" height="229" key="GridCell.Tab.0.left/0.28.1855.1052@0.28.1855.1052" timestamp="1579186456392" />
+    <state width="1801" height="229" key="GridCell.Tab.0.right" timestamp="1579186456393">
       <screen x="0" y="28" width="1855" height="1052" />
     </state>
-    <state width="1801" height="369" key="GridCell.Tab.0.right/0.28.1855.1052@0.28.1855.1052" timestamp="1579100518741" />
+    <state width="1801" height="229" key="GridCell.Tab.0.right/0.28.1855.1052@0.28.1855.1052" timestamp="1579186456393" />
+    <state width="1801" height="327" key="GridCell.Tab.1.bottom" timestamp="1579185538013">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.bottom/0.28.1855.1052@0.28.1855.1052" timestamp="1579185538013" />
+    <state width="1801" height="327" key="GridCell.Tab.1.center" timestamp="1579185538011">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.center/0.28.1855.1052@0.28.1855.1052" timestamp="1579185538011" />
+    <state width="1801" height="327" key="GridCell.Tab.1.left" timestamp="1579185538010">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.left/0.28.1855.1052@0.28.1855.1052" timestamp="1579185538010" />
+    <state width="1801" height="327" key="GridCell.Tab.1.right" timestamp="1579185538012">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state width="1801" height="327" key="GridCell.Tab.1.right/0.28.1855.1052@0.28.1855.1052" timestamp="1579185538012" />
+    <state x="409" y="189" key="SettingsEditor" timestamp="1579102354887">
+      <screen x="0" y="28" width="1855" height="1052" />
+    </state>
+    <state x="409" y="189" key="SettingsEditor/0.28.1855.1052@0.28.1855.1052" timestamp="1579102354887" />
   </component>
 </project>
