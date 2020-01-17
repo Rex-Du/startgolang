@@ -69,3 +69,24 @@ func FileMetaHandler(w http.ResponseWriter, r *http.Request) {
 	resp, _ := json.MarshalIndent(fileMeta, "", "\t")
 	io.WriteString(w, string(resp))
 }
+
+func DownloadHandler(w http.ResponseWriter, r *http.Request) {
+	r.ParseForm()
+	fsha1 := r.Form.Get("filehash")
+	fmeta := meta.GetFileMeta(fsha1)
+	f, err := os.Open(fmeta.Location)
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
+	defer f.Close()
+
+	data, err := ioutil.ReadAll(f)
+	if err != nil {
+		panic(err.Error())
+	}
+	w.Header().Set("Content-Type", "application/octect-stream")
+	w.Header().Set("Content-Disposition", "attachment;filename=\""+fmeta.FileName+"\"")
+	w.Write(data)
+
+}
