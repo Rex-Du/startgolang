@@ -10,6 +10,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -89,4 +90,27 @@ func DownloadHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Disposition", "attachment;filename=\""+fmeta.FileName+"\"")
 	w.Write(data)
 
+}
+
+func FileMetaUpdateHandler(w http.ResponseWriter, r *http.Request) {
+	r.ParseForm()
+	optType := r.Form.Get("opt") // 操作类型，0是重命名，1是删除
+	filehash := r.Form.Get("filehash")
+	if optType == "0" {
+		newName := r.Form.Get("newname")
+		if newName == "" {
+			io.WriteString(w, "重命名文件需要传入新的文件名newname参数")
+			return
+		}
+		fmeta := meta.GetFileMeta(filehash)
+		newPath := strings.Replace(fmeta.Location, fmeta.FileName, newName, -1)
+		err := os.Rename(fmeta.Location, newPath)
+		if err != nil {
+			panic(err.Error())
+		}
+		fmeta.FileName = newName
+		fmeta.Location = newPath
+		meta.UpdateFileMetas(fmeta)
+		io.WriteString(w, "重命名成功")
+	}
 }
