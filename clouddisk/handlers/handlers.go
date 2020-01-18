@@ -114,3 +114,14 @@ func FileMetaUpdateHandler(w http.ResponseWriter, r *http.Request) {
 		io.WriteString(w, "重命名成功")
 	}
 }
+
+func FileDeleteHandler(w http.ResponseWriter, r *http.Request) {
+	r.ParseForm()
+	fileHash := r.Form.Get("filehash")
+	fmeta := meta.GetFileMeta(fileHash)
+
+	os.Remove(fmeta.Location)
+
+	meta.DeleteFileMeta(fileHash)
+	w.WriteHeader(http.StatusOK)
+}
