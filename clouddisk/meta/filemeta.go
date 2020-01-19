@@ -1,5 +1,7 @@
 package meta
 
+import mydb "clouddisk/db"
+
 type FileMeta struct {
 	FileSha1 string
 	FileName string
@@ -18,6 +20,11 @@ func init() {
 
 func UpdateFileMetas(meta FileMeta) {
 	fileMetas[meta.FileSha1] = meta
+}
+
+// UpdateFileMetaDB 新增到mysql中
+func UpdateFileMetaDB(meta FileMeta) bool {
+	return mydb.OnFileUploadFinished(meta.FileSha1, meta.FileName, meta.FileSize, meta.Location)
 }
 
 // 通过sha1获取文件的元信息对象

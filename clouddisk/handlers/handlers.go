@@ -49,7 +49,8 @@ func FileUploadHandler(w http.ResponseWriter, r *http.Request) {
 		fileMeta.FileSize, err = io.Copy(newFile, file)
 		newFile.Seek(0, 0)
 		fileMeta.FileSha1 = util.FileSha1(newFile)
-		meta.UpdateFileMetas(fileMeta)
+		//meta.UpdateFileMetas(fileMeta)
+		meta.UpdateFileMetaDB(fileMeta)
 		//http.Redirect(w, r, "/file/upload/suc", http.StatusFound)
 		resp, _ := json.MarshalIndent(fileMeta, "", "\t")
 		io.WriteString(w, string(resp))
@@ -110,7 +111,8 @@ func FileMetaUpdateHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		fmeta.FileName = newName
 		fmeta.Location = newPath
-		meta.UpdateFileMetas(fmeta)
+		//meta.UpdateFileMetas(fmeta)
+		meta.UpdateFileMetaDB(fmeta)
 		io.WriteString(w, "重命名成功")
 	}
 }
